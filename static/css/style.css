@@ -1,0 +1,258 @@
+.frame-5,
+.frame-5 * {
+  box-sizing: border-box;
+}
+
+body{
+  background: #1a2128;
+}
+
+.ingenieria-en-software-dise-o-y-arq-de-software {
+  position: relative;
+  color: #8e8e8e;
+  text-align: left;
+  font: 400 2.15625rem "Inter-Regular", sans-serif;
+  position: absolute;
+  left: calc(50% - 30.5rem);
+  top: 3.6875rem;
+}
+
+.image-1 {
+  width: 28.0625rem;
+  height: 16.25rem;
+  position: absolute;
+  left: 45.9375rem;
+  top: 0rem;
+}
+
+.frame-36 {
+  background: #2c343b;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 14.5rem);
+  top: 8.5625rem;
+  overflow: hidden;
+}
+
+.input-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 24.5rem;
+  position: relative;
+}
+
+.label-text {
+  color: #ffffff;
+  text-align: left;
+  font: var(
+    --description-medium,
+    500 0.875rem/1.225rem "Inter-Medium",
+    sans-serif
+  );
+  position: relative;
+  align-self: stretch;
+}
+
+.input {
+  background: #2d2d2d;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-color: #c9cfd4;
+  border-width: 0.0625rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.user-circle {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.typing {
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+
+.placeholder-text {
+  background-color: rgb(45, 45, 45);
+  text-align: left;
+  font: var(--text-regular, 400 1rem/1.4rem "Inter-Regular", sans-serif);
+  position: relative;
+  flex: 1;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: none;
+  color: white;
+}
+
+.menu-actions {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-color: #dfe2e5;
+  border-width: 0.0625rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  margin: 5% 33%;
+}
+
+.gavel {
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.consultar-sri {
+  color: #ffffff;
+  text-align: center;
+  font: var(
+    --description-medium,
+    500 0.875rem/1.225rem "Inter-Medium",
+    sans-serif
+  );
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert {
+  background: #2d2d2d;
+  border-style: solid;
+  border-color: var(--info-700, #1555a0);
+  border-width: 0.25rem 0rem 0rem 0rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 22rem;
+  position: relative;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.icon-info {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+
+.frame-34 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.title {
+  color: var(--info-700, #1555a0);
+  text-align: left;
+  font: var(
+    --subtitle-bold,
+    600 1.125rem/1.575rem "Inter-SemiBold",
+    sans-serif
+  );
+  position: relative;
+  align-self: stretch;
+}
+
+.description {
+  color: #ffffff;
+  text-align: left;
+  font: var(
+    --description-regular,
+    400 0.875rem/1.225rem "Inter-Regular",
+    sans-serif
+  );
+  position: relative;
+  align-self: stretch;
+}
+
+.user-circle2 {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.car-simple {
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  overflow: visible;
+}
+
+.icon-info2 {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: visible;
+}
